@@ -65,7 +65,7 @@ function fetchWeather(city) {
                 const head = document.querySelector('head');
                 const body = document.querySelector('body');
                 head.innerHTML = `
-                    <link rel="stylesheet" href="night.css">
+                    <link rel="stylesheet" href="types/night.css">
                     <link rel="stylesheet" href="main.css">
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -126,7 +126,7 @@ function fetchWeather(city) {
                 const head = document.querySelector('head');
                 const body = document.querySelector('body');
                 head.innerHTML = `
-                    <link rel="stylesheet" href="day.css">
+                    <link rel="stylesheet" href="types/day.css">
                     <link rel="stylesheet" href="main.css">
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -175,7 +175,7 @@ function fetchWeather(city) {
                 const head = document.querySelector('head');
                 const body = document.querySelector('body');
                 head.innerHTML = `
-                    <link rel="stylesheet" href="sunrise.css">
+                    <link rel="stylesheet" href="types/sunrise.css">
                     <link rel="stylesheet" href="main.css">
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -224,7 +224,7 @@ function fetchWeather(city) {
                 const head = document.querySelector('head');
                 const body = document.querySelector('body');
                 head.innerHTML = `
-                    <link rel="stylesheet" href="sunset.css">
+                    <link rel="stylesheet" href="types/sunset.css">
                     <link rel="stylesheet" href="main.css">
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -273,7 +273,7 @@ function fetchWeather(city) {
                 const head = document.querySelector('head');
                 const body = document.querySelector('body');
                 head.innerHTML = `
-                    <link rel="stylesheet" href="rain.css">
+                    <link rel="stylesheet" href="types/rain.css">
                     <link rel="stylesheet" href="main.css">
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -341,7 +341,7 @@ function fetchWeather(city) {
                 const head = document.querySelector('head');
                 const body = document.querySelector('body');
                 head.innerHTML = `
-                    <link rel="stylesheet" href="rain.css">
+                    <link rel="stylesheet" href="types/rain.css">
                     <link rel="stylesheet" href="main.css">
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
