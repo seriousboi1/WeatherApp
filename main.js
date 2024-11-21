@@ -90,20 +90,20 @@ function fetchWeather(city) {
                     <div id="moon">
                         <div id="shadowing"></div>
                     </div>
-                    <img class="cloud front-cloud" id="cloud1" src="../images/night_cloud.png">
-                    <img class="cloud front-cloud" id="cloud2" src="../images/night_cloud.png">
-                    <img class="cloud front-cloud" id="cloud3" src="../images/night_cloud.png">
-                    <img class="cloud front-cloud" id="cloud4" src="../images/night_cloud.png">
-                    <img class="cloud front-cloud" id="cloud5" src="../images/night_cloud.png">
-                    <img class="cloud front-cloud" id="cloud6" src="../images/night_cloud.png">
-                    <img class="cloud front-cloud" id="cloud7" src="../images/night_cloud.png">
-                    <img class="cloud back-cloud" id="cloud8" src="../images/night_cloud.png">
-                    <img class="cloud back-cloud" id="cloud9" src="../images/night_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud10" src="../images/night_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud11" src="../images/night_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud12" src="../images/night_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud13" src="../images/night_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud14" src="../images/night_cloud.png">
+                    <img class="cloud front-cloud" id="cloud1" src="images/night_cloud.png">
+                    <img class="cloud front-cloud" id="cloud2" src="images/night_cloud.png">
+                    <img class="cloud front-cloud" id="cloud3" src="images/night_cloud.png">
+                    <img class="cloud front-cloud" id="cloud4" src="images/night_cloud.png">
+                    <img class="cloud front-cloud" id="cloud5" src="images/night_cloud.png">
+                    <img class="cloud front-cloud" id="cloud6" src="images/night_cloud.png">
+                    <img class="cloud front-cloud" id="cloud7" src="images/night_cloud.png">
+                    <img class="cloud back-cloud" id="cloud8" src="images/night_cloud.png">
+                    <img class="cloud back-cloud" id="cloud9" src="images/night_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud10" src="images/night_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud11" src="images/night_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud12" src="images/night_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud13" src="images/night_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud14" src="images/night_cloud.png">
                     <div class="stars" style="top: 5vh; left: 2vw;"></div>
                     <div class="stars" style="top: 15vh; left: 8vw;"></div>
                     <div class="stars" style="top: 20vh; left: 13vw;"></div>
@@ -149,20 +149,20 @@ function fetchWeather(city) {
 
                 bgFade.innerHTML = `
                     <div id="sun"></div>
-                    <img class="cloud front-cloud" id="cloud1" src="../images/day_cloud.png">
-                    <img class="cloud front-cloud" id="cloud2" src="../images/day_cloud.png">
-                    <img class="cloud front-cloud" id="cloud3" src="../images/day_cloud.png">
-                    <img class="cloud front-cloud" id="cloud4" src="../images/day_cloud.png">
-                    <img class="cloud front-cloud" id="cloud5" src="../images/day_cloud.png">
-                    <img class="cloud front-cloud" id="cloud6" src="../images/day_cloud.png">
-                    <img class="cloud front-cloud" id="cloud7" src="../images/day_cloud.png">
-                    <img class="cloud back-cloud" id="cloud8" src="../images/day_cloud.png">
-                    <img class="cloud back-cloud" id="cloud9" src="../images/day_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud10" src="../images/day_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud11" src="../images/day_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud12" src="../images/day_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud13" src="../images/day_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud14" src="../images/day_cloud.png">
+                    <img class="cloud front-cloud" id="cloud1" src="images/day_cloud.png">
+                    <img class="cloud front-cloud" id="cloud2" src="images/day_cloud.png">
+                    <img class="cloud front-cloud" id="cloud3" src="images/day_cloud.png">
+                    <img class="cloud front-cloud" id="cloud4" src="images/day_cloud.png">
+                    <img class="cloud front-cloud" id="cloud5" src="images/day_cloud.png">
+                    <img class="cloud front-cloud" id="cloud6" src="images/day_cloud.png">
+                    <img class="cloud front-cloud" id="cloud7" src="images/day_cloud.png">
+                    <img class="cloud back-cloud" id="cloud8" src="images/day_cloud.png">
+                    <img class="cloud back-cloud" id="cloud9" src="images/day_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud10" src="images/day_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud11" src="images/day_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud12" src="images/day_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud13" src="images/day_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud14" src="images/day_cloud.png">
                 `;
 
                 setTimeout(() => {
@@ -198,20 +198,20 @@ function fetchWeather(city) {
 
                 bgFade.innerHTML = `
                     <div id="sun"></div>
-                    <img class="cloud front-cloud" id="cloud1" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud2" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud3" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud4" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud5" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud6" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud7" src="../images/sunrise_cloud.png">
-                    <img class="cloud back-cloud" id="cloud8" src="../images/sunrise_cloud.png">
-                    <img class="cloud back-cloud" id="cloud9" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud10" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud11" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud12" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud13" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud14" src="../images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud1" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud2" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud3" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud4" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud5" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud6" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud7" src="images/sunrise_cloud.png">
+                    <img class="cloud back-cloud" id="cloud8" src="images/sunrise_cloud.png">
+                    <img class="cloud back-cloud" id="cloud9" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud10" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud11" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud12" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud13" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud14" src="images/sunrise_cloud.png">
                 `;
 
                 setTimeout(() => {
@@ -247,20 +247,20 @@ function fetchWeather(city) {
 
                 bgFade.innerHTML = `
                     <div id="sun"></div>
-                    <img class="cloud front-cloud" id="cloud1" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud2" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud3" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud4" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud5" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud6" src="../images/sunrise_cloud.png">
-                    <img class="cloud front-cloud" id="cloud7" src="../images/sunrise_cloud.png">
-                    <img class="cloud back-cloud" id="cloud8" src="../images/sunrise_cloud.png">
-                    <img class="cloud back-cloud" id="cloud9" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud10" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud11" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud12" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud13" src="../images/sunrise_cloud.png">
-                    <img class="cloud2 back-cloud" id="cloud14" src="../images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud1" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud2" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud3" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud4" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud5" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud6" src="images/sunrise_cloud.png">
+                    <img class="cloud front-cloud" id="cloud7" src="images/sunrise_cloud.png">
+                    <img class="cloud back-cloud" id="cloud8" src="images/sunrise_cloud.png">
+                    <img class="cloud back-cloud" id="cloud9" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud10" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud11" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud12" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud13" src="images/sunrise_cloud.png">
+                    <img class="cloud2 back-cloud" id="cloud14" src="images/sunrise_cloud.png">
                 `;
 
                 setTimeout(() => {
