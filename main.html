@@ -1,0 +1,42 @@
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="bg_fade"></div>
+        <div id="content">
+            <label id="city_title">City</label>
+            <label id="state_title">State</label>
+
+            <label class="additional-content left-content" id="temperature">°C </label>
+            <div id="container_additional_content_1">
+                <label class="additional-content" id="condition">Condition Stats</label>
+                <label class="additional-content" id="humidity">Humidity Stats </label>
+                <label class="additional-content" id="feels_like">Feelings Stats </label>    
+            </div>
+
+            <div id="container_additional_content_2">
+                <label class="additional-content right-content" id="wind">Wind Stats</label>
+                <label class="additional-content right-content" id="uv_index">UV Index Stat </label>
+                <div id="compass">
+                    <div id="arrow">
+                        <div id="left_side"></div>
+                        <div id="right_side"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <input type="text" id="city_input" placeholder="Enter city name">
+            <ul id="city_list"></ul>
+
+            <input type="text" id="state_input" placeholder="Enter state or country name">
+            <ul id="state_list"></ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="night.js"></script>
+</body>
