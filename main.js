@@ -72,7 +72,7 @@ function fetchWeather(city) {
                     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
                 `;
                 const script = document.createElement('script');
-                script.src = 'night.js';
+                script.src = 'types/night.js';
                 script.async = true;
 
                 script.onload = () => {
@@ -133,7 +133,7 @@ function fetchWeather(city) {
                     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
                 `;
                 const script = document.createElement('script');
-                script.src = 'day.js';
+                script.src = 'types/day.js';
                 script.async = true;
 
                 script.onload = () => {
@@ -182,7 +182,7 @@ function fetchWeather(city) {
                     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
                 `;
                 const script = document.createElement('script');
-                script.src = 'sunset.js';
+                script.src = 'types/sunset.js';
                 script.async = true;
 
                 script.onload = () => {
@@ -231,7 +231,7 @@ function fetchWeather(city) {
                     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
                 `;
                 const script = document.createElement('script');
-                script.src = 'sunset.js';
+                script.src = 'types/sunset.js';
                 script.async = true;
 
                 script.onload = () => {
@@ -280,7 +280,7 @@ function fetchWeather(city) {
                     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
                 `
                 const script = document.createElement('script');
-                script.src = 'rain.js';
+                script.src = 'types/rain.js';
                 script.async = true;
 
                 script.onload = () => {
@@ -348,7 +348,7 @@ function fetchWeather(city) {
                     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
                 `
                 const script = document.createElement('script');
-                script.src = 'rain.js';
+                script.src = 'types/rain.js';
                 script.async = true;
 
                 script.onload = () => {
