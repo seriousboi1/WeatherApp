@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(170, 170, 170);
+}
+
+#bg_fade {
+    background: linear-gradient(to bottom, #232353, #151538, #08081f);
+    width: 18vw;
+    height: 60vh;
+    border-radius: 2vw 0 0 2vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#moon {
+    position: absolute; 
+    transform: translate(-50%, -50%); 
+    height: 4vw; 
+    width: 4vw; 
+    box-shadow: -1.3vw 1.3vw 0 0.4vw rgb(216, 214, 126); 
+    border-radius: 3vw;
+    margin-left: 8vw;
+    margin-top: 20vh;
+    z-index: 2;
+}
+
+.cloud {
+    position: absolute;
+    animation: moveCloudInitial ease-in-out infinite;
+    opacity: 1;
+}
+
+.cloud2 {
+    position: absolute;
+    animation: moveCloudInitial2 ease-in-out infinite;
+    opacity: 1;
+}
+
+.front-cloud {
+    z-index: 3;
+}
+
+.back-cloud {
+    z-index: 1;
+}
+
+#cloud1 { width: 8vw; height: 8vw; top: 3vh; left: 2vw; }
+#cloud2 { width: 10vw; height: 10vw; top: 1vh; left: 13vw; }
+#cloud3 { width: 11vw; height: 11vw; top: 22vh; left: -3vw; }
+#cloud4 { width: 7vw; height: 7vw; top: 30vh; left: 7vw; }
+#cloud5 { width: 9vw; height: 9vw; top: 40vh; left: 12vw; }
+#cloud6 { width: 6vw; height: 6vw; top: 12vh; left: -8vw; }
+#cloud7 { width: 8vw; height: 8vw; top: 50vh; left: 15vw; }
+#cloud8 { width: 9vw; height: 9vw; top: 25vh; left: -16vw; }
+#cloud9 { width: 10vw; height: 10vw; top: 38vh; left: -2vw; }
+#cloud10 { width: 10vw; height: 10vw; top: 45vh; left: -25vw; }
+#cloud11 { width: 8vw; height: 8vw; top: 15vh; left: -2vw; }
+#cloud12 { width: 9vw; height: 9vw; top: 27vh; left: -30vw; }
+#cloud13 { width: 10vw; height: 10vw; top: 5vh; left:-35vw; }
+#cloud14 { width: 11vw; height: 11vw; top: 36vh; left: -20vw; }
+#cloud15 { width: 10vw; height: 10vw; top: 35vh; left: -2vw; }
+
+
+.stars {
+    background: url('../images/star.png') no-repeat center;
+    background-size: contain;
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    z-index: 0;
+    pointer-events: none;
+    animation: twinkle 3s ease-in-out infinite;
+    transition: 2s;
+}
+
+@keyframes twinkle {
+    0% { opacity: 1; }
+    50% { opacity: 0.1; }
+    100% { opacity: 1; }
+}
+
+@keyframes moveCloudInitial {
+    0% { transform: translateX(0vw); }
+    100% { transform: translateX(40vw); }
+}
+
+@keyframes moveCloudLoop {
+    0% { transform: translateX(-5in); }
+    100% { transform: translateX(40vw); }
+}
+
+@keyframes moveCloudInitial2 {
+    0% { transform: translateX(0vw); }
+    100% { transform: translateX(60vw); }
+}
+
+@keyframes moveCloudLoop2 {
+    0% { transform: translateX(-30vw); }
+    100% { transform: translateX(60vw); }
+}

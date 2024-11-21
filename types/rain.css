@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 50vw;
+  height: 60vh;
+  border-radius: 2vw;
+  margin-left: 25vw;
+  margin-top: 20vh;
+  background-color: white;
+}
+
+#bg_fade {
+  width: 18vw;
+  height: 60vh;
+  background: linear-gradient(135deg, #a3b1c4, #71808f);
+  width: 18vw;
+  height: 60vh;
+  border-radius: 2vw 0 0 2vw;
+  position: relative;
+}
+
+.clouds {
+  width: 13vw;
+  height: 13vw;
+  position: absolute;
+  z-index: 10;
+}
+
+#cloud1 {
+  margin-top: -11vh;
+  margin-left: -1vw;
+}
+
+#cloud2 {
+  margin-top: -8vh;
+  margin-left: 7vw;
+}
+
+#cloud3 {
+  margin-top: -1vh;
+}
+
+#rain-container {
+  position: absolute;
+  width: 30vw;
+  height: 40vw;
+  margin-left: 30vw;
+}
+
+.rain-particle {
+  width: 0.3vw;
+  height: 4vh;
+  background-color: rgba(85, 117, 185, 0.7);
+  border-radius: 5vw;
+  rotate: 25deg;
+  position: absolute;
+  animation: rain 0.6s infinite linear;
+  box-shadow: 0 0 0.2vw rgba(90, 123, 196, 0.5);
+}
+
+@keyframes rain {
+  0% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  80% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(40vw);
+      opacity: 0;
+  }
+}
